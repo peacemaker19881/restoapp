@@ -1,14 +1,16 @@
 <template>
   <signup_component/>
+  <login_component/>
 </template>
 
 <script>
-import signup_component from './components/signup_component.vue'
-
+import signup_component from './components/signup_component.vue';
+import login_component from './components/login_component.vue'
 export default {
   name: 'App',
   components: {
     signup_component,
+    login_component,
   }
 }
 </script>
